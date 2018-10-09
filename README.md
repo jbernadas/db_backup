@@ -7,7 +7,7 @@ How it works is it executes the 'mysqldump' utility which in turn creates the .s
 
 1.) So, first step, we need to go into mysql and type in our credentials
 
-    <pre>mysql -u root -p</pre>
+<pre>mysql -u root -p</pre>
 
 2.) Manually copy all the databases we want to backup into the dbnames.txt file using a text editor, one database name per line (don't copy the mysql system names).
 
