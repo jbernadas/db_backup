@@ -1,4 +1,5 @@
 #db_backup
+<h2>DB_BACKUP</h2>
 
 This is a Python 2.7 script that creates a copy of your MySQL databases. 
 
@@ -37,7 +38,7 @@ BACKUP_PATH = '/PATH/TO/WHERE/YOU/INSTALLED/db_backup/'
 </pre>
 <hr>
 
-<h3>To use this in Ubuntu Linux.<h3>
+<h3>To use this in Ubuntu Linux.</h3>
 
 1.) Open cron job file
 
