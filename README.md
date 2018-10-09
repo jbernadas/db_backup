@@ -1,5 +1,5 @@
 #db_backup
-<h2>DB_BACKUP</h2>
+<h1>DB_BACKUP</h1>
 
 This is a Python 2.7 script that creates a copy of your MySQL databases. 
 
@@ -36,6 +36,7 @@ In Linux it should look like this:
 DB_NAME = '/PATH/TO/WHERE/YOU/INSTALLED/db_backup/dbnames.txt'
 BACKUP_PATH = '/PATH/TO/WHERE/YOU/INSTALLED/db_backup/'
 </pre>
+
 <hr>
 
 <h3>To use this in Ubuntu Linux.</h3>
@@ -51,6 +52,8 @@ BACKUP_PATH = '/PATH/TO/WHERE/YOU/INSTALLED/db_backup/'
 <pre>* 6 * * * sudo python /PATH/TO/WHERE/YOU/INSTALLED/db_backup/dbbackup.py</pre>
 
 4.) Set the files and folder permissions to 660 so that root and you can access the files and folders.
+
+<hr>
 
 <h3>To use this in Windows</h3>
 
