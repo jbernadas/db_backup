@@ -35,9 +35,8 @@ In Linux it should look like this:
 DB_NAME = '/PATH/TO/WHERE/YOU/INSTALLED/db_backup/dbnames.txt'
 BACKUP_PATH = '/PATH/TO/WHERE/YOU/INSTALLED/db_backup/'
 </pre>
-
-
-To use this in Ubuntu Linux.
+<hr>
+<h3>To use this in Ubuntu Linux.<h3>
 1.) Open cron job file
 
 <pre>sudo crontab -e</pre>
@@ -50,21 +49,23 @@ To use this in Ubuntu Linux.
 
 4.) Set the files and folder permissions to 660 so that root and you can access the files and folders.
 
-To use this in Windows, open up Windows Task Scheduler to let Windows run our python script once a day.
+<h3>To use this in Windows</h3>
 
-1.) Type in Start search bar Task Scheduler.
+1.) Open up Windows Task Scheduler to let Windows run our python script once a day.
 
-2.) On the rightmost column click Create Basic Task.
+2.) Type in Start search bar Task Scheduler.
 
-3.) Fill out the name of our task. Then provide description of what it does. Click next.
+3.) On the rightmost column click Create Basic Task.
 
-4.) Choose when you want the task to start. Click next.
+4.) Fill out the name of our task. Then provide description of what it does. Click next.
 
-5.) Choose time and frequency of task. Leave blank the Synchronize across time zones. Click next.
+5.) Choose when you want the task to start. Click next.
 
-6.) We are now on the Action menu, choose the radio button to Start a program. Click next.
+6.) Choose time and frequency of task. Leave blank the Synchronize across time zones. Click next.
 
-7.) We will be in the Start a Program menu. We now put the path to our python script, which is:
+7.) We are now on the Action menu, choose the radio button to Start a program. Click next.
+
+8.) We will be in the Start a Program menu. We now put the path to our python script, which is:
 
 C:\PATH\TO\WHERE\YOU\INSTALLED\db_backup\dbnames.txt
 
