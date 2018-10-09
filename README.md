@@ -36,7 +36,9 @@ DB_NAME = '/PATH/TO/WHERE/YOU/INSTALLED/db_backup/dbnames.txt'
 BACKUP_PATH = '/PATH/TO/WHERE/YOU/INSTALLED/db_backup/'
 </pre>
 <hr>
+
 <h3>To use this in Ubuntu Linux.<h3>
+
 1.) Open cron job file
 
 <pre>sudo crontab -e</pre>
