@@ -1,7 +1,7 @@
 #db_backup
 <h1>DB_BACKUP</h1>
 
-This is a Python 2.7 script that creates a copy of your MySQL databases. 
+This is a Python 2.7 script that creates a copy of your MySQL databases. It does this by reading a list of database names in a text file called dbnames.txt. It does not automatically generate this text file, you have to manually list all those database names you want it to backup.
 
 How it works is it executes the 'mysqldump' utility which in turn creates the .sql file copies of the database names listed in dbnames.txt.
 
